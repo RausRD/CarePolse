@@ -11,15 +11,23 @@ import {
 } from '@/components/ui/form'
 import { Input } from '@/components/ui/input'
 import { Control } from 'react-hook-form'
-import { FromFieldType } from './forms/PatientForm'
 import Image from 'next/image'
 import 'react-phone-number-input/style.css'
 import PhoneInput from 'react-phone-number-input'
-import {E164Number}from 'libphonenumber-js/core'
+import { E164Number } from 'libphonenumber-js/core'
+
+export enum FromFieldType {
+	INPUT = 'input',
+	TEXTAREA = 'textarea',
+	PHONE_INPUT = 'phoneinput',
+	CHECKBOX = 'checkbox',
+	DATE_PICKER = 'datePicker',
+	SELECT = 'select',
+	SKELETON = 'skeleton',
+}
 
 interface CustomProps {
 	control: Control<any>
-	fieldType: FromFieldType
 	name: string
 	label?: string
 	placeholder?: string
@@ -30,6 +38,7 @@ interface CustomProps {
 	showTimeSelect?: boolean
 	children?: React.ReactNode
 	renderSkeleton?: (field: any) => React.ReactNode
+	fieldType: FromFieldType
 }
 
 const RenderField = ({ field, props }: { field: any; props: CustomProps }) => {
