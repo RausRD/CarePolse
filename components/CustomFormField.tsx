@@ -104,7 +104,7 @@ const RenderField = ({ field, props }: { field: any; props: CustomProps }) => {
 			)
 		case FromFieldType.DATE_PICKER:
 			return (
-				<div className='flex rounded-md border border-dark-500 '>
+				<div className='flex rounded-md border border-dark-500 bg-dark-400'>
 					<Image
 						src='/assets/icons/calendar.svg'
 						height={24}
@@ -164,9 +164,9 @@ const CustomFormField = (props: CustomProps) => {
 			render={({ field }) => (
 				<FormItem className='flex-1'>
 					{fieldType !== FromFieldType.CHECKBOX && label && (
-						<FormLabel>{label}</FormLabel>
+						<FormLabel className='shad-input-label'>{label}</FormLabel>
 					)}
-					<RenderField field={field} props={props} />
+					<RenderField field={field} props={props}/>
 					<FormMessage className='shad-error' />
 				</FormItem>
 			)}
