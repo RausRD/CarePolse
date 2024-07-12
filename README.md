@@ -17,7 +17,7 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-A healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors, featuring administrative tools for scheduling, confirming, and canceling appointments, along with SMS notifications, all built using Next.js. I will be a very-large scale application, i got a strong practice, learned to development on Next.ts, Tailwind CSS, using custom components with ShadCN, using reusable components learned to use appwrite and more. Link on the project <a href="https://care-pulse-amber.vercel.app/" target="_blank">CarePulse</a>
+A healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors, featuring administrative tools for scheduling, confirming, and canceling appointments, along with SMS notifications, all built using Next.js. It's a very-large scale project, i got a strong practice, learned to development on Next.ts, Tailwind CSS, using custom components with ShadCN, using reusable components learned to use appwrite and more. Link on the project <a href="https://care-pulse-amber.vercel.app/" target="_blank">CarePulse</a>
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
