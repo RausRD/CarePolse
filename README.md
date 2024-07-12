@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-      <img src="https://github.com/adrianhajdin/healthcare/assets/151519281/a7dd73b6-93de-484d-84e0-e7f4e299167b" alt="Project Banner">
+      <img src="https://github.com/RausRD/pictures/347042676-a7dd73b6-93de-484d-84e0-e7f4e299167b.png" alt="Project Banner">
     </a>
   <br />
 
